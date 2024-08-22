@@ -321,3 +321,5 @@ def gerar_dados(n_clicks, estado, ano, regiao):
     
     return None
 
+# if __name__ == 'main':
+#     app.run_server(debug = True)
