@@ -320,5 +320,4 @@ def gerar_dados(n_clicks, estado, ano, regiao):
     return dcc.send_data_frame(filter_data.to_csv, 'dados_filtrados.csv')
     
     return None
-# if __name__ == '__main__':
-#     app.run_server(debug=True)
+
